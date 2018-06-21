@@ -1,0 +1,25 @@
+
+.names{
+    font-size: 18px;
+    color:#383030;
+    cursor: pointer;
+}
+.names:hover{
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+.numbers{
+    float: right;
+}
+
+.alert {
+    position: absolute;
+    padding: 3px;
+    background-color: #79c879;
+    color: #fff;
+    left: 50%;
+    top:10px;
+    transform: translate(-50%, 0);
+    display: none;
+}
